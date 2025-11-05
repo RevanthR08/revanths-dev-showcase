@@ -96,4 +96,18 @@ All colors MUST be HSL.
       transform: translateY(0);
     }
   }
+  
+  @keyframes shake {
+    0%, 100% { transform: translateX(0) scale(1.05); }
+    25% { transform: translateX(-2px) scale(1.05); }
+    75% { transform: translateX(2px) scale(1.05); }
+  }
+  
+  .hover-expand-shake {
+    transition: all 0.3s ease;
+  }
+  
+  .hover-expand-shake:hover {
+    animation: shake 0.4s ease-in-out;
+  }
 }
