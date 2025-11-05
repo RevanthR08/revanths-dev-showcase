@@ -35,7 +35,7 @@ const WhyChooseMe = () => {
           {reasons.map((reason, index) => (
             <Card 
               key={index}
-              className="glass-card p-8 hover:shadow-[0_0_30px_hsl(189_94%_55%/0.2)] transition-all duration-300 group cursor-default"
+              className="glass-card p-8 hover:shadow-[0_0_30px_hsl(221_83%_53%/0.15)] transition-all duration-300 group cursor-default"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
               <div className="mb-6 inline-flex p-4 rounded-2xl bg-primary/10 group-hover:bg-primary/20 transition-colors">
